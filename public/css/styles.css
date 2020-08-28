@@ -181,3 +181,28 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+@media screen and (max-width: 768px){
+    .compose form {
+        display: flex;
+        flex-grow: 1;
+        flex-flow: column;
+        margin-right: 16px;
+    }
+
+    .compose input {
+        border: 1px solid #eeeeee;
+        width: 190px;
+        padding: 12px;
+        margin: 0 0 -8px 0;
+        flex-grow: 1;
+    }
+
+    .compose form button{
+        margin: auto;
+    }
+    
+    .compose button {
+        font-size: 14px;
+    }
+}
