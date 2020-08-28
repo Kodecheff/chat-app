@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chat App</title>
   <link rel="icon" href="./img/favicon.png">
-  <link rel="stylesheet" type="text/css" href="./css/styles.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
 <body>
@@ -16,7 +16,11 @@
         <label>Display name</label>
         <input type="text" name="username" placeholder="Display name" autocomplete="off" required>
         <label>Room</label>
-        <input type="text" name="room" placeholder="Room" autocomplete="off" required>
+        <!-- <input type="text" name="room" placeholder="Room" autocomplete="off" required> -->
+        <select name="room" placeholder="Room">
+          <option value="room1">Room 1</option>
+          <option value="room2">Room 2</option>
+        </select>
         <button>Join</button>
       </form>
     </div>
